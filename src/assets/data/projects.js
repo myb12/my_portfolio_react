@@ -27,10 +27,10 @@ const projects = [
   {
     id: uuidv4(),
     name: 'React Portfolio',
-    desc: 'I built this project with html, css & React.js',
+    desc: 'I built this project with html, tailwind css & React.js',
     img: ReactPortImg,
     live: 'https://mohammad-yasin-react-portfolio.netlify.app/',
-    source: 'https://github.com/myb12/react-portfolio',
+    source: 'https://github.com/myb12/react_tailwind_portfolio',
   },
   {
     id: uuidv4(),
