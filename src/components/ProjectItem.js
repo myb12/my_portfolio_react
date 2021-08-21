@@ -1,4 +1,3 @@
-import React, { isValidElement } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
