@@ -11,6 +11,7 @@ import MentorianImg from '../images/mo_workshop_list.png';
 import HondaImg from '../images/honda_cbr.png';
 import PandaImg from '../images/panda_commerce_bootstrap.png';
 import MacBookImg from '../images/mac-book-pro.png';
+import FoodImg from '../images/food_network.png';
 
 import TodoImg from '../images/todo.png';
 
@@ -116,7 +117,7 @@ const projects = [
     id: uuidv4(),
     name: 'Food Network',
     desc: 'I built this project with html & css.',
-    img: BankistAppImg,
+    img: FoodImg,
     live: 'https://myb12.github.io/food-network/',
     source: 'https://github.com/myb12/food-network',
   },
