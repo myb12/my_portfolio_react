@@ -158,7 +158,7 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello World!, This is</span>
+            <span>Hello World! This is</span>
             <span className="hero__name">Mohammad Yasin</span>
           </h1>
           <div className="hero__img">
@@ -169,7 +169,7 @@ export default function HeroSection() {
               I'm Yasin, a web developer with sound knowledge of front-end and
               back-end techniques.
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="See my works" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">

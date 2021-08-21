@@ -169,7 +169,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Nov, 2020"
-                items={['Web Developer at Softimize.Tech']}
+                items={['Web Developer at Story Teller']}
               />
             </div>
           </div>
