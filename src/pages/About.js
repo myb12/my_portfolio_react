@@ -113,7 +113,7 @@ export default function About() {
               <a
                 className="cv-btn"
                 target="_blank"
-                href="https://drive.google.com/file/d/1YcxyyH-YvsHI8Dtx0JJXgAqjkyDerlJG/view?usp=sharing"
+                href="https://drive.google.com/file/d/14_8xdIspCO4Ivi3hdj_r7wIEEZR9fdfa/view?usp=sharing"
                 rel="noreferrer"
               >
                 Download CV
