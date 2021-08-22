@@ -100,6 +100,12 @@ export default function Footer() {
                 title: 'Contact',
                 path: '/contact',
               },
+              {
+                type: '',
+                title: 'Download My CV',
+                path:
+                  'https://drive.google.com/file/d/144qO7s4WX8uI-7X4OOAnAlxVXMZhrXf-/view',
+              },
             ]}
           />
         </div>
