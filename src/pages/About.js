@@ -133,11 +133,11 @@ export default function About() {
               />
               <AboutInfoItem
                 title="College"
-                items={['BAF Shaheen College, Chattogram']}
+                items={['BAF Shaheen College, Chittagong']}
               />
               <AboutInfoItem
                 title="University"
-                items={['University Of Science & Technology Chitiagong']}
+                items={['University Of Science & Technology Chittagong']}
               />
             </div>
             <div className="about__info__item">

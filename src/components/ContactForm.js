@@ -72,7 +72,7 @@ export default function ContactForm() {
         </div>
         <div className="form-group">
           <label htmlFor="message">
-            Your message
+            Your Message
             <textarea
               type="text"
               id="message"
