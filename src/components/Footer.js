@@ -104,7 +104,7 @@ export default function Footer() {
                 type: '',
                 title: 'Download My CV',
                 path:
-                  'https://drive.google.com/file/d/144qO7s4WX8uI-7X4OOAnAlxVXMZhrXf-/view',
+                  'https://drive.google.com/file/d/1YcxyyH-YvsHI8Dtx0JJXgAqjkyDerlJG/view?usp=sharing,
               },
             ]}
           />
