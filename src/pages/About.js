@@ -149,7 +149,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['PHP', 'Laravel', 'sanity.io']}
+                items={['PHP', 'MySQL', 'Laravel', 'sanity']}
               />
               <AboutInfoItem
                 title="Design"
