@@ -12,10 +12,18 @@ import HondaImg from '../images/honda_cbr.png';
 import PandaImg from '../images/panda_commerce_bootstrap.png';
 import MacBookImg from '../images/mac-book-pro.png';
 import FoodImg from '../images/food_network.png';
-
+import MonstersImg from '../images/monsters.png';
 import TodoImg from '../images/todo.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'React Portfolio',
+    desc: 'I built this project with html, tailwind css & React.js',
+    img: ReactPortImg,
+    live: 'https://mohammad-yasin-react-portfolio.netlify.app/',
+    source: 'https://github.com/myb12/react_tailwind_portfolio',
+  },
   {
     id: uuidv4(),
     name: 'React Todo Application',
@@ -26,12 +34,13 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'React Portfolio',
-    desc: 'I built this project with html, tailwind css & React.js',
-    img: ReactPortImg,
-    live: 'https://mohammad-yasin-react-portfolio.netlify.app/',
-    source: 'https://github.com/myb12/react_tailwind_portfolio',
+    name: 'React Monsters Rolodex App',
+    desc: 'I built this project with html, scss & React.js',
+    img: MonstersImg,
+    live: 'https://mohammad-yasin-monsters.netlify.app/',
+    source: 'https://github.com/myb12/react_monster',
   },
+
   {
     id: uuidv4(),
     name: 'Recipe App',
