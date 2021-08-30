@@ -1,17 +1,17 @@
 import { v4 as uuidv4 } from 'uuid';
 import BankistAppImg from '../images/bankist_app.png';
 import ReactPortImg from '../images/react-portfolio.png';
-import RecipeAppImg from '../images/recipe.png';
+import RecipeAppImg from '../images/recipe.jpg';
 import BankistWebImg from '../images/bankist.png';
-import MaptyImg from '../images/mapty.png';
+import MaptyImg from '../images/mapty.jpg';
 import LaravelCmsImg from '../images/laravel_cms.png';
 import PigImg from '../images/pig_game.png';
 import WhereAmImg from '../images/where_am_i.PNG';
-import MentorianImg from '../images/mo_workshop_list.png';
-import HondaImg from '../images/honda_cbr.png';
+import MentorianImg from '../images/mentorian.jpg';
+import HondaImg from '../images/honda_cbr.jpg';
 import PandaImg from '../images/panda_commerce_bootstrap.png';
-import MacBookImg from '../images/mac-book-pro.png';
-import FoodImg from '../images/food_network.png';
+import WeatherImg from '../images/weather.jpg';
+import FoodImg from '../images/food_network.jpg';
 import MonstersImg from '../images/monsters.png';
 import TodoImg from '../images/todo.png';
 
@@ -76,19 +76,29 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: 'Weather Update',
+    desc:
+      'I built this project with html, css, javascript & Openweathermap API',
+    img: WeatherImg,
+    live: 'https://mohammad-yasin-weather-update.netlify.app/',
+    source: 'https://github.com/myb12/weather-update',
+  },
+  {
+    id: uuidv4(),
+    name: 'Where am I',
+    desc:
+      'I built this project with html, css, javascript, Geolocation API & Rest API.',
+    img: WhereAmImg,
+    live: 'https://myb12.github.io/where_am_i/',
+    source: 'https://github.com/myb12/where_am_i',
+  },
+  {
+    id: uuidv4(),
     name: 'Pig Game',
     desc: 'I built this project with html, css & javascript.',
     img: PigImg,
     live: 'https://myb12.github.io/pig-game/',
     source: 'https://github.com/myb12/pig-game',
-  },
-  {
-    id: uuidv4(),
-    name: 'Where am I',
-    desc: 'I built this project with html, css, javascript & REST API.',
-    img: WhereAmImg,
-    live: 'https://myb12.github.io/where_am_i/',
-    source: 'https://github.com/myb12/where_am_i',
   },
   {
     id: uuidv4(),
@@ -129,14 +139,6 @@ const projects = [
     img: FoodImg,
     live: 'https://myb12.github.io/food-network/',
     source: 'https://github.com/myb12/food-network',
-  },
-  {
-    id: uuidv4(),
-    name: 'Mac Book Pro',
-    desc: 'I built this project with html, css & javascript',
-    img: MacBookImg,
-    live: 'https://mac-book-pro-mohammad-yasin.netlify.app/',
-    source: '',
   },
 ];
 

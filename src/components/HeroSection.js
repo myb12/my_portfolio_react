@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaFacebook } from 'react-icons/fa';
 import { AiFillTwitterCircle, AiFillGithub } from 'react-icons/ai';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/hero.jpg';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';

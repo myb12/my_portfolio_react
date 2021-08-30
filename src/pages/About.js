@@ -149,7 +149,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['PHP', 'MySQL', 'Laravel', 'sanity']}
+                items={['PHP', 'MySQL', 'Laravel', 'Firebase']}
               />
               <AboutInfoItem
                 title="Design"
@@ -169,7 +169,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Nov, 2020 to Present"
-                items={['Web Developer at Story Teller']}
+                items={['Web Developer at Softimize.Tech']}
               />
             </div>
           </div>
