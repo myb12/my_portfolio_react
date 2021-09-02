@@ -14,6 +14,7 @@ import WeatherImg from '../images/weather.jpg';
 import FoodImg from '../images/food_network.jpg';
 import MonstersImg from '../images/monsters.png';
 import TodoImg from '../images/todo.png';
+import MacBookPro from '../images/mac-book-pro.png';
 
 const projects = [
   {
@@ -94,6 +95,14 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: 'Mac Book Pro',
+    desc: 'I built this project with html, css & javascript.',
+    img: MacBookPro,
+    live: 'https://mac-book-pro-mohammad-yasin.netlify.app/',
+    source: 'https://github.com/myb12/mac-book-pro',
+  },
+  {
+    id: uuidv4(),
     name: 'Pig Game',
     desc: 'I built this project with html, css & javascript.',
     img: PigImg,
@@ -122,7 +131,7 @@ const projects = [
     desc: 'I built this project with html & css.',
     img: HondaImg,
     live: 'https://honda-cbr-mohammad-yasin.netlify.app/',
-    source: '',
+    source: 'https://github.com/myb12/honda-cbr',
   },
   {
     id: uuidv4(),
