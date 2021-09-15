@@ -14,6 +14,7 @@ import WeatherImg from '../images/weather.jpg';
 import FoodImg from '../images/food_network.jpg';
 import MonstersImg from '../images/monsters.png';
 import TodoImg from '../images/todo.png';
+import Chatbot from '../images/myb-chatbot.png';
 import MacBookPro from '../images/mac-book-pro.png';
 
 const projects = [
@@ -24,6 +25,15 @@ const projects = [
     img: ReactPortImg,
     live: 'https://mohammad-yasin-react-portfolio.netlify.app/',
     source: 'https://github.com/myb12/react_tailwind_portfolio',
+  },
+  {
+    id: uuidv4(),
+    name: 'React Chatbot Dashboard',
+    desc:
+      'I built this project with html, css, React.js, React Slick, React Hook & React-Vis',
+    img: Chatbot,
+    live: 'https://myb-chatbot.netlify.app/',
+    source: 'https://github.com/myb12/chatbot-bytelabs-task',
   },
   {
     id: uuidv4(),
