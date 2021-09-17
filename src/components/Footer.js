@@ -118,8 +118,8 @@ export default function Footer() {
                 path: 'tel:+8801674687835',
               },
               {
-                title: 'yasinbappy33@gmail.com',
-                path: 'mailto:yasinbappy33@gmail.com',
+                title: 'mohammadyasinbappy@gmail.com',
+                path: 'mailto:mohammadyasinbappy@gmail.com',
               },
               {
                 title: 'South Middle Halishahar, Chattogram, Bangladesh',
