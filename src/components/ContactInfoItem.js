@@ -23,6 +23,9 @@ const ItemStyles = styled.div`
   svg {
     width: 3.5rem;
   }
+  p {
+    word-break: break-word;
+  }
 `;
 
 export default function ContactInfoItem({
