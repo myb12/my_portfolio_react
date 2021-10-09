@@ -8,7 +8,7 @@ const AboutItemStyles = styled.div`
   justify-content: flex-start;
   position: relative;
   /* gap: 5rem; */
-  margin-top: 3rem;
+  margin-top: 4rem;
   .title {
     font-size: 2.4rem;
   }
@@ -24,6 +24,7 @@ const AboutItemStyles = styled.div`
     border-radius: 8px;
   }
   @media only screen and (max-width: 768px) {
+    margin-top: 3rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;

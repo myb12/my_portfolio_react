@@ -148,12 +148,16 @@ export default function About() {
                 items={['HTML', 'CSS', 'JavaScript', 'REACT']}
               />
               <AboutInfoItem
+                title=""
+                items={['React Bootstrap', 'Firebase Auth', 'Material UI']}
+              />
+              <AboutInfoItem
                 title="BackEnd"
                 items={['PHP', 'MySQL', 'Laravel']}
               />
               <AboutInfoItem
                 title="Design"
-                items={['Illustrator', 'Photoshop', 'Figma']}
+                items={['Figma', 'Illustrator', 'Photoshop']}
               />
             </div>
             <div className="about__info__item">
@@ -164,8 +168,12 @@ export default function About() {
                 items={['Junior Executive at Pacific Jeans']}
               />
               <AboutInfoItem
-                title="Nov, 2020 to Present"
+                title="Nov, 2020 to Oct, 2021"
                 items={['Web Developer at Softimize.Tech']}
+              />
+              <AboutInfoItem
+                title="Oct, 2021 to Present"
+                items={['Front-End Developer at Tech Hack Canada']}
               />
             </div>
           </div>
