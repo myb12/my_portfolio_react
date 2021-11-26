@@ -118,10 +118,10 @@ export default function About() {
               <a
                 className="cv-btn"
                 target="_blank"
-                href="https://drive.google.com/file/d/16XGZUfLvwOX8gTAvRQW_GIepzKxSsIA2/view?usp=sharing"
+                href="https://drive.google.com/file/d/1u9zOjVLaKTsCI_FEadB22GWDEAE0ym5i/view?usp=sharing"
                 rel="noreferrer"
               >
-                Download CV
+                Download Resume
               </a>
             </div>
             <div className="right">
@@ -196,6 +196,3 @@ export default function About() {
     </>
   );
 }
-
-// Javascript, ReactJs, REST API, React Router, React Hook, Axios, HTML5, CSS3, Bootstrap, React Bootstrap,
-//   Material UI, Tailwind css.

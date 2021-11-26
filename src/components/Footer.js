@@ -102,9 +102,9 @@ export default function Footer() {
               },
               {
                 type: '',
-                title: 'Download My CV',
+                title: 'Download My Resume',
                 path:
-                  'https://drive.google.com/file/d/16XGZUfLvwOX8gTAvRQW_GIepzKxSsIA2/view?usp=sharing',
+                  'https://drive.google.com/file/d/1u9zOjVLaKTsCI_FEadB22GWDEAE0ym5i/view?usp=sharing',
               },
             ]}
           />

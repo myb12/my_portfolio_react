@@ -49,10 +49,10 @@ export default function Map() {
       <div className="container">
         <div className="map__card">
           <h3 className="map__card__heading">Here I am!</h3>
-          <PText>South Middle Halishahar, Chattogram, Bangladesh</PText>
+          <PText>Farmgate, Dhaka, Bangladesh</PText>
           <a
             className="map__card__link"
-            href="https://goo.gl/maps/dBdqp8DkcSqFuxLv5"
+            href="https://goo.gl/maps/QMCoUvc1BFgTvP1M8"
             target="_blank"
             rel="noreferrer"
           >
