@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaFacebook } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import { AiFillTwitterCircle, AiFillGithub } from 'react-icons/ai';
 import FooterCol from './FooterCol';
 import PText from './PText';
@@ -122,8 +122,8 @@ export default function Footer() {
                 path: 'mailto:mohammadyasinbappy@gmail.com',
               },
               {
-                title: 'South Middle Halishahar, Chattogram, Bangladesh',
-                path: 'https://goo.gl/maps/dBdqp8DkcSqFuxLv5',
+                title: 'Farmgate, Dhaka, Bangladesh',
+                path: 'https://goo.gl/maps/QMCoUvc1BFgTvP1M8',
               },
             ]}
           />
@@ -137,8 +137,8 @@ export default function Footer() {
                 path: 'https://github.com/myb12',
               },
               {
-                title: 'Facebook',
-                path: 'https://www.facebook.com/mybappy12',
+                title: 'Linkedin',
+                path: 'https://www.linkedin.com/in/mohammad-yasin-bappy/',
               },
               {
                 title: 'Twitter',
@@ -161,11 +161,11 @@ export default function Footer() {
                 <AiFillGithub />
               </a>
               <a
-                href="https://www.facebook.com/mybappy12"
+                href="https://www.linkedin.com/in/mohammad-yasin-bappy/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaFacebook />
+                <FaLinkedin style={{ '&:hover': { color: 'red' } }} />
               </a>
               <a
                 href="https://twitter.com/mybappy12"

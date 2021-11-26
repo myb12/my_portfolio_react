@@ -63,6 +63,13 @@ const AboutPageStyles = styled.div`
     border-radius: 8px;
     display: inline-block;
     color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
+    border: 1px solid var(--gray-1);
+    transition: 0.3s ease background-color;
+
+    &:hover {
+      background-color: var(--deep-dark);
+      color: var(--gray-1);
+    }
   }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;

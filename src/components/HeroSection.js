@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaFacebook } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import { AiFillTwitterCircle, AiFillGithub } from 'react-icons/ai';
 import HeroImg from '../assets/images/hero.jpg';
 import Button from './Button';
@@ -190,11 +190,11 @@ export default function HeroSection() {
 
                 <li>
                   <a
-                    href="https://www.facebook.com/mybappy12"
+                    href="https://www.linkedin.com/in/mohammad-yasin-bappy/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaFacebook />
+                    <FaLinkedin />
                   </a>
                 </li>
 

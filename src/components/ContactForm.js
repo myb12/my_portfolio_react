@@ -36,6 +36,13 @@ const FormStyle = styled.form`
     padding: 1rem 4rem;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px solid var(--gray-1);
+    transition: 0.3s ease background-color;
+
+    &:hover {
+      background-color: var(--deep-dark);
+      color: var(--gray-1);
+    }
   }
 `;
 
