@@ -98,9 +98,14 @@ export default function About() {
               <h2 className="about__heading">A Web Developer</h2>
               <div className="about__info">
                 <PText>
-                  I'm Yasin, a web developer with sound knowledge of front-end
-                  and back-end techniques. I love structure and order and I also
-                  stand for quality.
+                  I'm Yasin, a web developer with deep knowledge and proficiency
+                  in JavaScript, ReactJs, HTML, CSS, React Bootstrap, Material
+                  UI, and mobile responsive website development, as well as a
+                  strong ability to effectively design, efficient coding, and
+                  debug application codes.
+                  <br /> <br />
+                  And with sound knowledge of NodeJs, ExpressJs, MongoDb, PHP,
+                  Laravel, MySQL.
                   <br /> <br />
                   I love spending time on fixing little details and optimizing
                   web apps.
@@ -145,15 +150,23 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['JavaScript', 'ReactJs', 'HTML', 'CSS']}
               />
               <AboutInfoItem
-                title=""
-                items={['React Bootstrap', 'Firebase Auth', 'Material UI']}
+                title="follows"
+                items={['React Bootstrap', 'Material UI', 'Tailwind CSS']}
+              />
+              <AboutInfoItem
+                title="follows"
+                items={['REST API', 'Axios', 'Firebase']}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['PHP', 'MySQL', 'Laravel']}
+                items={['NodeJs', 'ExpressJs', 'MongoDb']}
+              />
+              <AboutInfoItem
+                title="follows"
+                items={['PHP', 'Laravel', 'MySQL']}
               />
               <AboutInfoItem
                 title="Design"
@@ -164,16 +177,16 @@ export default function About() {
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
+                title="Oct, 2021 to Present"
+                items={['Front-End Developer(React) at Tech Hack Canada']}
+              />
+              <AboutInfoItem
+                title="Nov, 2020 to Sep, 2021"
+                items={['Junior Web Developer(Laravel) at Softimize.Tech']}
+              />
+              <AboutInfoItem
                 title="Aug, 2019 to Sep, 2020"
                 items={['Junior Executive at Pacific Jeans']}
-              />
-              <AboutInfoItem
-                title="Nov, 2020 to Oct, 2021"
-                items={['Web Developer at Softimize.Tech']}
-              />
-              <AboutInfoItem
-                title="Oct, 2021 to Present"
-                items={['Front-End Developer at Tech Hack Canada']}
               />
             </div>
           </div>
@@ -183,3 +196,6 @@ export default function About() {
     </>
   );
 }
+
+// Javascript, ReactJs, REST API, React Router, React Hook, Axios, HTML5, CSS3, Bootstrap, React Bootstrap,
+//   Material UI, Tailwind css.

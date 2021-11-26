@@ -35,7 +35,14 @@ const AboutItemStyles = styled.div`
     .title {
       font-size: 2rem;
     }
+    .mobile-title {
+      display: none;
+    }
   }
+
+  /* @media only screen and (max-width: 900px) {
+    margin-top: 100px;
+  } */
 `;
 
 export default function AboutInfoItem({
@@ -43,8 +50,15 @@ export default function AboutInfoItem({
   items = ['HTML', 'CSS'],
 }) {
   return (
-    <AboutItemStyles>
-      <h1 className="title">{title}</h1>
+    <AboutItemStyles style={{ marginTop: title === 'follows' && 20 }}>
+      <h1
+        className={`${title === 'follows' && 'mobile-title'} ${'title'}`}
+        style={{
+          visibility: title === 'follows' && 'hidden',
+        }}
+      >
+        {title}
+      </h1>
       <div className="items">
         {items.map((item, index) => (
           <div className="item" key={index}>
