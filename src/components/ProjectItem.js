@@ -52,6 +52,7 @@ export default function ProjectItem({
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
   live = '',
   source = '',
+  server,
 }) {
   return (
     <ProjectItemStyles>
@@ -65,12 +66,27 @@ export default function ProjectItem({
         <p className="projectItem__desc">{desc}</p>
 
         <div className="project-icons">
-          <a target="_blank" href={live} rel="noreferrer">
+          <a target="_blank" href={live} rel="noreferrer" title="Live Link">
             <AiFillEye />
           </a>
-          <a target="_blank" href={source} rel="noreferrer">
+          <a
+            target="_blank"
+            href={source}
+            rel="noreferrer"
+            title={server ? 'Client Site Source Code' : 'Source Code'}
+          >
             <AiFillGithub />
           </a>
+          {server && (
+            <a
+              target="_blank"
+              href={server}
+              rel="noreferrer"
+              title="Server Site Source Code"
+            >
+              <AiFillGithub />
+            </a>
+          )}
         </div>
       </div>
     </ProjectItemStyles>

@@ -91,6 +91,7 @@ export default function Projects() {
                 img={item.img}
                 live={item.live}
                 source={item.source}
+                server={item.server}
               />
             ))}
           </div>

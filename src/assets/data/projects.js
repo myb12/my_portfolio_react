@@ -16,8 +16,50 @@ import MonstersImg from '../images/monsters.png';
 import TodoImg from '../images/todo.png';
 import Chatbot from '../images/myb-chatbot.png';
 import MacBookPro from '../images/mac-book-pro.png';
+import MybWatches from '../images/myb-watches.jpg';
+import mybTravel from '../images/myb-travel.jpg';
+import DoctorsHouse from '../images/doctors-house.jpg';
+import RedOnion from '../images/red-onion.jpg';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'MYB Stylish Watches',
+    desc:
+      'A watch related MERN stack Niche website built with ReactJs, HTML, CSS, Material UI, React Router, React hook, Firebase Authentication System, Context API, NodeJs, ExpressJs, MongoDB, JWT Token',
+    img: MybWatches,
+    live: 'https://myb-stylish-watches.web.app/',
+    source: 'https://github.com/myb12/myb-stylish-watches-client',
+    server: 'https://github.com/myb12/myb-stylish-watches-server',
+  },
+  {
+    id: uuidv4(),
+    name: 'MYB Travels',
+    desc:
+      'A Tour & Travel related MERN stack website built with ReactJs, HTML, CSS, React Bootstrap, React Router, React hook, Firebase Authentication System, Context API, NodeJs,ExpressJs, MongoDB.',
+    img: mybTravel,
+    live: 'https://myb-travel.web.app/',
+    source: 'https://github.com/myb12/myb-travels-client',
+    server: 'https://github.com/myb12/myb-travels-server',
+  },
+  {
+    id: uuidv4(),
+    name: 'MYB Travels',
+    desc:
+      ' A simple health care related website built with ReactJs, HTML, CSS, Bootstrap, React Router, React hook, Firebase Authentication System, Context API.',
+    img: DoctorsHouse,
+    live: 'https://doctors-house-1ec0a.web.app/',
+    source: 'https://github.com/myb12/doctors-house',
+  },
+  {
+    id: uuidv4(),
+    name: 'Red Onion',
+    desc:
+      'A simple food related website built with ReactJs, HTML, CSS, Bootstrap, React Router, React hook, Firebase Authentication System, Context API.',
+    img: RedOnion,
+    live: 'https://red-onion-cb5df.web.app//',
+    source: 'https://github.com/myb12/red-onion',
+  },
   {
     id: uuidv4(),
     name: 'React Portfolio',
