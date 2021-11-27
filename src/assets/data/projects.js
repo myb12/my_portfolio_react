@@ -1,6 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
 import BankistAppImg from '../images/bankist_app.png';
-import ReactPortImg from '../images/react-portfolio.png';
 import RecipeAppImg from '../images/recipe.jpg';
 import BankistWebImg from '../images/bankist.png';
 import MaptyImg from '../images/mapty.jpg';
