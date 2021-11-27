@@ -148,6 +148,10 @@ export default function About() {
                 items={['BAF Shaheen College, Chittagong']}
               />
               <AboutInfoItem
+                title="Bachelor of Science"
+                items={['Computer Science and Engineering']}
+              />
+              <AboutInfoItem
                 title="University"
                 items={['University Of Science & Technology Chittagong']}
               />
@@ -185,7 +189,7 @@ export default function About() {
 
               <AboutInfoItem
                 title="Oct, 2021 to Present"
-                items={['Front-End Developer(React) at Tech Hack Canada']}
+                items={['Front-end Developer (React) at TechHack Canada']}
               />
               <AboutInfoItem
                 title="Nov, 2020 to Sep, 2021"
