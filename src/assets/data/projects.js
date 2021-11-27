@@ -44,7 +44,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'MYB Travels',
+    name: 'Doctors House',
     desc:
       ' A simple health care related website built with ReactJs, HTML, CSS, Bootstrap, React Router, React hook, Firebase Authentication System, Context API.',
     img: DoctorsHouse,
@@ -59,14 +59,6 @@ const projects = [
     img: RedOnion,
     live: 'https://red-onion-cb5df.web.app//',
     source: 'https://github.com/myb12/red-onion',
-  },
-  {
-    id: uuidv4(),
-    name: 'React Portfolio',
-    desc: 'I built this project with html, tailwind css & React.js',
-    img: ReactPortImg,
-    live: 'https://mohammad-yasin-react-portfolio.netlify.app/',
-    source: 'https://github.com/myb12/react_tailwind_portfolio',
   },
   {
     id: uuidv4(),

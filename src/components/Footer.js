@@ -152,7 +152,7 @@ export default function Footer() {
         <div className="container">
           <PText>
             <div className="project-icons">
-              © 2021 - Mohammad Yasin |{'  '}
+              © 2021 - Mohammad Yasin |&nbsp;
               <a
                 href="https://github.com/myb12"
                 target="_blank"
@@ -165,7 +165,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaLinkedin style={{ '&:hover': { color: 'red' } }} />
+                <FaLinkedin />
               </a>
               <a
                 href="https://twitter.com/mybappy12"

@@ -92,6 +92,7 @@ export default function ProjectsSection() {
                     desc={project.desc}
                     live={project.live}
                     source={project.source}
+                    server={project.server}
                   />
                 </SwiperSlide>
               );
