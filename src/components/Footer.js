@@ -104,7 +104,7 @@ export default function Footer() {
                 type: '',
                 title: 'Download My Resume',
                 path:
-                  'https://drive.google.com/file/d/1u9zOjVLaKTsCI_FEadB22GWDEAE0ym5i/view?usp=sharing',
+                  'https://drive.google.com/file/d/1cz881_3dfAMaEoWSph4mK-I6MuNDsbsL/view?fbclid=IwAR2zTrVxOAAmGdRBTZvPZRjo1xpXqhBPMid3pUN3HE6P0fMkbiIwXWJFUsM',
               },
             ]}
           />
